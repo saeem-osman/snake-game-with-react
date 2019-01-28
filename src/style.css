@@ -1,0 +1,37 @@
+
+body {
+    height: 100vh;
+    widows: 100vw;
+}
+
+
+#App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+
+}
+
+.grid {
+    height: 200px;
+    width: 200px;
+
+}
+
+.cell {
+    height: 10px;
+    width: 10px;
+    outline: 2px solid black;
+}
+
+.apple {
+    background: red;
+}
+.head {
+    background: blue;
+}
+.tail {
+    background: lightseagreen;
+}
